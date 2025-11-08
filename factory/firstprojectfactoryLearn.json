@@ -1,0 +1,9 @@
+{
+	"name": "firstprojectfactoryLearn",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f78b944-7b95-46a0-b650-0bf8699d20c8",
+		"tenantId": "f8768314-769b-4579-b3d3-6c6c31c0e4ca"
+	}
+}
