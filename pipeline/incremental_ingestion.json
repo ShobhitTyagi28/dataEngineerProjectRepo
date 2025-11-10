@@ -195,7 +195,12 @@
 				"outputs": [
 					{
 						"referenceName": "Json_dynamic",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "bronzecontainer",
+							"folder": "cdc",
+							"file": "cdc.json"
+						}
 					}
 				]
 			},
