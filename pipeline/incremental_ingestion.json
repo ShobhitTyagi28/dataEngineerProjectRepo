@@ -110,7 +110,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"variableName": "current",
-					"value": ""
+					"value": {
+						"value": "@utcNow()",
+						"type": "Expression"
+					}
 				}
 			}
 		],
