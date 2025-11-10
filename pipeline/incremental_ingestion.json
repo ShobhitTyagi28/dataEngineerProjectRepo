@@ -98,6 +98,20 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "current",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "current",
+					"value": ""
+				}
 			}
 		],
 		"parameters": {
@@ -119,6 +133,9 @@
 				"type": "String"
 			},
 			"cdc_col": {
+				"type": "String"
+			},
+			"current": {
 				"type": "String"
 			}
 		},
