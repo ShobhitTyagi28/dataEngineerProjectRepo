@@ -81,7 +81,7 @@
 									"parameters": {
 										"container": "bronzecontainer",
 										"folder": {
-											"value": "@item().table",
+											"value": "@trim(item().table)\n",
 											"type": "Expression"
 										},
 										"file": {
@@ -122,7 +122,7 @@
 									"parameters": {
 										"container": "bronzecontainer",
 										"folder": {
-											"value": "@{item().table}",
+											"value": "@trim(item().table)",
 											"type": "Expression"
 										},
 										"file": "cdc.json"
@@ -185,11 +185,11 @@
 												"parameters": {
 													"container": "bronzecontainer",
 													"folder": {
-														"value": "@item().table",
+														"value": "@trim(item().table)\n",
 														"type": "Expression"
 													},
 													"file": {
-														"value": "@concat(item().table,'_',variables('current'))",
+														"value": "@concat(trim(item().table), '_', variables('current'))",
 														"type": "Expression"
 													}
 												}
@@ -268,7 +268,7 @@
 												"parameters": {
 													"container": "bronzecontainer",
 													"folder": {
-														"value": "@item().table",
+														"value": "@trim(item().table)\n",
 														"type": "Expression"
 													},
 													"file": "empty.json"
@@ -282,7 +282,7 @@
 												"parameters": {
 													"container": "bronzecontainer",
 													"folder": {
-														"value": "@item().table",
+														"value": "@trim(item().table)\n",
 														"type": "Expression"
 													},
 													"file": "cdc.json"
