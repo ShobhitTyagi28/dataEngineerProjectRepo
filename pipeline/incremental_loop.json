@@ -349,20 +349,6 @@
 				]
 			}
 		},
-		"variables": {
-			"table": {
-				"type": "String"
-			},
-			"schema": {
-				"type": "String"
-			},
-			"cdc_col": {
-				"type": "String"
-			},
-			"current": {
-				"type": "String"
-			}
-		},
 		"annotations": []
 	}
 }
