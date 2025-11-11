@@ -267,7 +267,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronzecontainer",
-													"folder": "cdc",
+													"folder": "@{item().table}_cdc",
 													"file": "empty.json"
 												}
 											}
@@ -278,7 +278,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronzecontainer",
-													"folder": "cdc",
+													"folder": "@{item().table}_cdc",
 													"file": "cdc.json"
 												}
 											}
